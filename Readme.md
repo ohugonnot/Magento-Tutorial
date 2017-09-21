@@ -24,10 +24,11 @@
 ### Plan de formation
 
 
-__Semaine 1 et 2__
+__Semaine 1 et 2__        
+Réferent technique : Seb, essayer de pas lui casser les co... avec trop de questions
 
 	* Ce former à git au quotidien en travaillant sur Magento 1.5 et phpStorm avec Magicento
-Réferent technique : Seb, essayer de pas lui casser les couilles avec trop de question
+	* Comprendre l'architecture BDD du projet b2b
+	* Comprendre le fonctionnement MVC et les classes importantes de Mangeto 1.5
 	* Essayer de lire des tuto sur Docker et SolR le soir et les week end.
-
 
