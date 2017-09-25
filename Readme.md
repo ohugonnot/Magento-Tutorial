@@ -3,18 +3,18 @@
 
 ### Workflow à Maitriser
 
-1. git    
-2. docker && docker-compose && Makefile    
-3. solr    
-4. magento 1.5 && phpStorm plugin Magicento    
-5. compass && grunt && npm    
-6. Symfony    
+1. git && pullRequest     
+2. docker && docker-compose && Makefile     
+3. solr && Redmine && Jenkins     
+4. magento 1.5 && phpStorm plugin Magicento      
+5. compass && grunt && npm     
+6. Symfony && test unitaire     
 
 
 
 ###  TODO List - Estimation des temps
     
-- Ce former sur GIT  -  2 a 3 semaines : peut être cumuler un autre aprentisage    
+- Ce former sur GIT  -  1 a 2 semaines : peut être cumuler un autre aprentisage    
 - Ce former sur Docker  - 6 a 8 semaines : bon niveau en admin sys, bcp à apprendre    
 - Ce former sur SolR - 2 semaine : encore flou    
 - Ce former sur Compass, Grunt, Npm - 3 semaines : pas mal de chose à couvrir mais secondaire     
@@ -32,4 +32,9 @@ Réferent technique : Seb, essayer de pas lui casser les co... avec trop de ques
 	* Comprendre l'architecture BDD du projet b2b    
 	* Comprendre le fonctionnement MVC et les classes importantes de Mangeto 1.5    
 	* Essayer de lire des tuto sur Docker et SolR le soir et les week end.     
-  
+
+
+_Rapport de 1ere Semaine_ : 
+	- Prise en main de ubuntu : Ok    
+        - Installation de l'environnement de production : Ok (à voir la partie docker et make file)
+	- Maitrise des concepts généraux et théorique de Git : Ok (a voir dans le cadre d'une utilisation en équipe)
