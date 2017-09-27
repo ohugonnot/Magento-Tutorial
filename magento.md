@@ -1,33 +1,33 @@
 # Formation Magento
-
-Utile sur phpStorm
-CTRL + ESPACE = pour le préremplissage class, template ect
-CTRL + SHIFT + A = rechercher une action
-SHIFT F6 = rename
-
-
+        
+Utile sur phpStorm     
+CTRL + ESPACE = pour le préremplissage class, template ect      
+CTRL + SHIFT + A = rechercher une action       
+SHIFT F6 = rename      
+     
+        
 ## La structure de base
 Dans un module magento il y a __2 parties__, le __« code »__ et les __« templates »__.      
-
+      
 ```
 /app/code/local/monNameSpace/monNomDeModule/
 /app/design/frontend/monRepertoiredeTemplates/monTemplate  //(pour la partie frontend)
 /app/design/adminhtml/monRepertoiredeTemplates/monTemplate //(pour la partie backend) 
 ```
-
-
+   
+       
 ## Le dossier /app/ et les codePool magento
 Dans le dossier __app/__ vous retrouverez 3 dossiers (codePool) qui contiendront :     
 
-__code__ : avec tous le code de l'aplication
-	__community__ : les plugins de la communauté (téléchargés sur magentoconnect par exemple).    
-	__core__ : les modules par défaut de magento (A NE SURTOUT PAS MODIFIER)     
-	__local__ : les modules que vous avez développés vous même     
-__design__ : avec les vues de l'application
-	__adminhtml__ : les vues de l'admin    
-	__frontend__ : les vues front     
-
-
+__code__ : avec tous le code de l'aplication      
+	.    __community__ : les plugins de la communauté (téléchargés sur magentoconnect par exemple).       
+	.    __core__ : les modules par défaut de magento (A NE SURTOUT PAS MODIFIER)         
+	.    __local__ : les modules que vous avez développés vous même           
+__design__ : avec les vues de l'application         
+	.    __adminhtml__ : les vues de l'admin        
+	.    __frontend__ : les vues front         
+        
+    
 ## la structure d'un module magento
 __Block__ : la ou vous aller mettre la partie « controller » de votre block       
 __controllers__ : les controllers de votre module        
@@ -79,7 +79,7 @@ class NameSpace_NameModule_IndexController extends Mage_Core_Controller_Front_Ac
 5. __Config.xml__, le fichier pour configurer votre module :    
 il faut que dans le fichier config.xml de votre module, vous déclariez aussi votre controller . Mangento va ainsi trouver votre fichier NameSpace_NameModule.xml, il va aller dans votre dossier `/app/code/local/NameSpace/NameModule/etc/` et va lire le fichier __config.xml__ pour savoir ou aller chercher votre controlleur et comment fonctionne votre module. 
 
-``xml
+```xml
 <config>
      <modules>
         <NameSpace_NameModule>
