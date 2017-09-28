@@ -1,11 +1,5 @@
 # Formation Magento
         
-Utile sur phpStorm     
-CTRL + ESPACE = pour le préremplissage class, template ect      
-CTRL + SHIFT + A = rechercher une action       
-SHIFT F6 = rename      
-     
-        
 ## La structure de base
 Dans un module magento il y a __2 parties__, le __« code »__ et les __« templates »__.      
       
@@ -312,6 +306,49 @@ class Pfay_Films_Block_Monblock extends Mage_Core_Block_Template
          return $retour;
       }
  }
+ ```
+
+### Les modèles 
+
+ ```php
+     ->getIdFieldName()    			# return le nom de la colonne servant d'id
+     ->getCollection()				# retourne la collection
+     ->save()
+     ->load($key)
+     ->getData()
+     ->delete()
+     ->addData(array $arr)
+     ->setData($key, $value)
+     ->unsetData($key)
+     ->getData($key)
+     ->toArray()->toString()->toXml()->toJson()
+ ```
+
+### Les Collections
+ 
+ ```php
+     ->getAllIds()    				# prendre tous les ids de la collection
+     ->getItemById()
+     ->setOrder('fieldName','asc');		# ajouter un order
+     ->addFilter('fieldName', 'value');		# ajouter un filtre
+     ->save()                                   # sauver les items
+     ->getItems()                               # sélectionner les items dans un arrat d'object item
+     ->getIdFieldName()    			# return le nom de la colonne servant d'id
+     ->getSize()     				# return la taille de la collection
+     ->distinct($flag)                          # set le select sur distinct
+     ->load()->resetData()                      # collection easy loaded, avec load je charge les items dans data
+     ->detData()                                # load et sort les data en array
+     ->getFirstItem()->getLastItem()            # selectionner premiere et dernire item
+     ->getColumnValues($columnName)             # selectionne toutes les valeurs d'un field
+     ->getItemsByColumnValue($columnName,$value) # selectionne les items qui ont une certaine valeur dans un field
+     ->addItem($item)
+     ->removeItemByKey($key)
+     ->clear()
+     ->walk($callback,$args)
+     ->each($obj_method, $args)
+     ->getNewEmptyItem()
+     ->toArray()->toXml()
+
  ```
 
 
