@@ -34,10 +34,12 @@ Réferent technique : Seb, essayer de pas trop le gonfler avec toutes mes questi
 	* Essayer de lire des tuto sur Docker et SolR le soir et les week end.     
 
 
-_Rapport de 1ere Semaine_ : 
-	- Prise en main de ubuntu : Ok    
-        - Installation de l'environnement de production : Ok (à voir la partie docker et make file)
-	- Maitrise des concepts généraux et théorique de Git : Ok (a voir dans le cadre d'une utilisation en équipe)
-        - Maitrise de la création d'un module Magento (block, controllers, model, etc, sql, config.xml, layout) : ok
-	- Maitrise de la création d'un controlleur : ok
-        - Matrise de la création d'un modèle triad (Model, Ressource, Collection) : ok
+_Rapport de 1ere Semaine_ :
+
+	* Prise en main de ubuntu : Ok       
+	* Installation de l'environnement de production : Ok (à voir la partie docker et make file)       
+	* Maitrise des concepts généraux et théorique de Git : Ok (a voir dans le cadre d'une utilisation en équipe)     
+	* Maitrise de la création d'un module Magento (block, controllers, model, sql, config.xml, layout) : ok      
+	* Maitrise de la création d'un controlleur : ok      
+	* Matrise de la création d'un modèle triad (Model, Ressource, Collection) : ok        
+      
