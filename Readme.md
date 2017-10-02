@@ -37,9 +37,16 @@ Réferent technique : Seb, essayer de pas trop le gonfler avec toutes mes questi
 _Rapport de 1ere Semaine_ :
 
 	* Prise en main de ubuntu : Ok       
-	* Installation de l'environnement de production : Ok (à voir la partie docker et make file)       
-	* Maitrise des concepts généraux et théorique de Git : Ok (a voir dans le cadre d'une utilisation en équipe)     
+	* Installation de l'environnement de production : Ok (voir la partie docker et make file)       
+	* Maitrise des concepts généraux et théorique de Git : Ok (voir dans le cadre d'une utilisation en équipe)     
 	* Maitrise de la création d'un module Magento (block, controllers, model, sql, config.xml, layout) : ok      
 	* Maitrise de la création d'un controlleur : ok      
 	* Matrise de la création d'un modèle triad (Model, Ressource, Collection) : ok        
       
+_Rapport de 2eme Semaine_ :  [Memo Magento](magento.md)
+      
+	* Destruction de l'environnement de production et réinstallation : Ok (plus de pb avec le docker)      
+	* Utilsiation de git : commit -p. Mes premières conflits et mes premiers diff.  
+	* Magento : Epluchage des classes Collection et Modele, création d'un mémo. 
+	* Layout et config.xml : principe de surcouchage des controllers, modèles et block : ok
+	* Obeserver d'évenements : En cours   
