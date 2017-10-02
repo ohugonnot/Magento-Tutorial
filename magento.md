@@ -337,7 +337,7 @@ class Pfay_Films_Block_Monblock extends Mage_Core_Block_Template
      ->getSize()     				# return la taille de la collection
      ->distinct($flag)                          # set le select sur distinct
      ->load()->resetData()                      # collection easy loaded, avec load je charge les items dans data
-     ->detData()                                # load et sort les data en array
+     ->getData()                                # load et sort les data en array
      ->getFirstItem()->getLastItem()            # selectionner premiere et dernire item
      ->getColumnValues($columnName)             # selectionne toutes les valeurs d'un field
      ->getItemsByColumnValue($columnName,$value) # selectionne les items qui ont une certaine valeur dans un field
@@ -349,6 +349,24 @@ class Pfay_Films_Block_Monblock extends Mage_Core_Block_Template
      ->getNewEmptyItem()
      ->toArray()->toXml()
 
+	// Jointures -
+     ->getSelect()
+		->join([alias => table], sql_on, [fieldToAdd])
+		->joinLeft()
+		->addAttributeToSelect('*')
+		->addFieldToFilter('field','value)
+		->addFieldToFilter('status', array('eq' => 1)) 		// egal à
+		->addFieldToFilter('visibility', array('neq' => 1)) 	// Différent de (neq)
+		->addFieldToFilter('price', array('lt' => 99.99)) 		// plus petit que (lt)
+		->addFieldToFilter('price', array('gt' => 3.99));		// Plus grand que (gt)
+		->addFieldToFilter('price', array('gteq' => 3.99));		// plus grand ou égale à (gteq)
+		->addFieldToFilter('price', array('lteq' => 99.99));		// plus petit ou égale à (lteq)
+		->addFieldToFilter('description', array('like' => '%toto%'));	// contient (like) 
+		->addFieldToFilter('description', array('nlike' => '%xxx%'));	// ne contient pas 
+		->addFieldToFilter('id', array('in' => array(10,30,102)));		// dans le tableau (in)
+		->addFieldToFilter('id', array('nin' => array(12,60,102)));		// N'est pas dans la liste  
+		->addFieldToFilter('description', 'null');		// est NULL 
+		->addFieldToFilter('description', 'notnull');	// n'est pas NULL
  ```
 
 
