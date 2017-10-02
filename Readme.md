@@ -13,13 +13,13 @@
 
 ###  TODO List - Estimation des temps
     
-- Ce former sur GIT  -  1 a 2 semaines : peut être cumuler avec un autre aprentisage    
-- Ce former sur Docker  - 6 a 8 semaines : bon niveau en admin sys recquis, bcp à apprendre à programme sur le temps libre    
-- Ce former sur SolR - 2 semaine : encore flou    
-- Ce former sur Compass, Grunt, Npm - 3 semaines : pas mal de chose à couvrir mais secondaire pour le moment     
-- Ce former sur Magento 1.5 - 8 à 16 semaines : __priorité__     
-- Comprendre le fonctionnement de la BDD du b2b : __priorité__     
-- Ce former au test Unitaire  6 à 8 semaines     
+- Ce former sur GIT  -  __1 a 2 semaines__ : peut être cumuler avec un autre aprentisage    
+- Ce former sur Docker  - __6 a 8 semaines__ : bon niveau en admin sys recquis, bcp à apprendre sur le temps libre   
+- Ce former sur SolR - __2 semaine__ : encore flou    
+- Ce former sur Compass, Grunt, Npm - __3 semaines__ : pas mal de chose à couvrir mais secondaire pour le moment     
+- Ce former sur Magento 1.5 - __8 à 16 semaines__ : __priorité__     
+- Comprendre le fonctionnement de la BDD du b2b __?? semaines__ : __priorité__     
+- Ce former au test Unitaire  __6 à 8__ semaines     
 
 
 ### Plan de formation
