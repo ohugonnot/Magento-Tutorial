@@ -50,3 +50,12 @@ _Rapport de 2eme Semaine_ :  [Memo Magento](magento.md)
 	* Magento : Epluchage des classes Collection et Modele, création d'un mémo. 
 	* Layout et config.xml : principe de surcouchage des controllers, modèles et block : ok
 	* Obeserver d'évenements : En cours   
+	
+_Rapport de 3eme Semaine_ : 
+      
+	* Epluchage du tunnel de paiement sur B2B
+	* Création de ticket et utilisation de redmine avec la gestion du temps : ok
+	* Etude du système de double et triple validation
+	* Etude de la base flat_order et flat_quote ainsi que la conversion quote => order
+
+	
